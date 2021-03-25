@@ -1,0 +1,65 @@
+top-icons {
+  padding-top: 10vw;
+  padding-left: 10vw;
+}
+
+body {
+  height: 200vw;
+  font-size: 8em;
+  background-color: #f74239;
+  justify-content: space-between;
+}
+
+.profile {
+  font-family: 'futura';
+  font-weight: bolder;
+  font-size: 1.2em;
+  color: #ffffff;
+  z-index: 10;
+}
+
+.WORK_CONTACT {
+  font-family: 'futura';
+  font-weight: bold;
+  font-style: italic;
+  font-size: 0.9em;
+  z-index: 11;
+}
+
+.profile image{
+  z-index: 1;
+}
+
+/*--------------저작권 표기--------------*/
+.bottom {
+  height: 30vh;
+}
+
+.item-copyright{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2em;
+  justify-content: space-between; /*여백 나눠가지기*/
+  font-family: 'futura';
+}
+
+p2 {
+  color: #800000;
+  font-size: 0.8em;
+}
+/*--------------home으로 돌아가기--------------*/
+.item-backtohome{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1em;
+  justify-content: space-between; /*여백 나눠가지기*/
+}
+
+p3 {
+  color: #800000;
+  font-size: 1.3em;
+  font-family: 'futura';
+  font-weight: bold;
+}
