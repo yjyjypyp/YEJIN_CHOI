@@ -53,7 +53,7 @@ p2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 1em;
+  padding-bottom: 0.4em;
   justify-content: space-between; /*여백 나눠가지기*/
 }
 
@@ -62,4 +62,20 @@ p3 {
   font-size: 1.3em;
   font-family: 'futura';
   font-weight: bold;
+}
+
+a:link {
+  color: #6800A0;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #6800A0;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #800000;
+  background-color: transparent;
+  text-decoration: underline;
 }

@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  height: 730vh; /*viewport height*/
+  height: 900vh; /*viewport height*/
   justify-content: space-between;
   padding-top: 0%;
   padding-bottom: 10%;
@@ -97,6 +97,22 @@ h2 {
   font-family: 'futura';
 }
 
+a:link {
+  color: #800000;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #C0C0C0;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #007F00;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 /*--------------저작권 표기--------------*/
 .item-copyright{
   display: flex;
@@ -116,7 +132,7 @@ p2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 1em;
+  padding-bottom: 0.4em;
   justify-content: space-between; /*여백 나눠가지기*/
 }
 
