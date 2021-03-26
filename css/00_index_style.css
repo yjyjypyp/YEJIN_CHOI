@@ -10,6 +10,12 @@ body {
   justify-content: space-between;
 }
 
+.POSITION_FIXED {
+  margin-left: 30px;
+  position: fixed;
+  z-index: 100;
+}
+
 .profile {
   font-family: 'futura';
   font-weight: bolder;
@@ -26,22 +32,32 @@ body {
   z-index: 11;
 }
 
-.profile image{
-  z-index: 1;
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.profile_image {
+  padding-top: 400px;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-around;
+  align-content: center;
 }
 
 /*--------------저작권 표기--------------*/
-.bottom {
-  height: 30vh;
-}
 
 .item-copyright{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 2em;
+  margin-bottom: 2em;
   justify-content: space-between; /*여백 나눠가지기*/
   font-family: 'futura';
+
 }
 
 p2 {
@@ -53,7 +69,7 @@ p2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 0.4em;
+  margin-bottom: 0.4em;
   justify-content: space-between; /*여백 나눠가지기*/
 }
 
@@ -64,6 +80,7 @@ p3 {
   font-weight: bold;
 }
 
+/*--------------link 설정 관련--------------*/
 a:link {
   color: #6800A0;
   background-color: transparent;
