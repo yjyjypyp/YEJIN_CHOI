@@ -4,7 +4,7 @@ top-icons {
 }
 
 body {
-  height: 200vw;
+  height: 200vh;
   font-size: 8em;
   background-color: #f74239;
   justify-content: space-between;
@@ -33,10 +33,12 @@ body {
 }
 
 .main {
-  display: flex;
+  display: block;
+  /*background-color: blue; -> 메인 이미지 부분 영역 확인용*/
   flex-direction: column;
   justify-content: center;
   justify-content: space-between;
+  height: 280vh; /*메인 이미지들 있는 부분 영역*/
 }
 
 .profile_image {
@@ -48,34 +50,43 @@ body {
   align-content: center;
 }
 
+/*--------------BOTTOM 표기--------------*/
+
+
 /*--------------저작권 표기--------------*/
 
 .item-copyright{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 2em;
   justify-content: space-between; /*여백 나눠가지기*/
   font-family: 'futura';
 
 }
 
-p2 {
-  color: #800000;
-  font-size: 0.8em;
-}
 /*--------------home으로 돌아가기--------------*/
 .item-backtohome{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 0.4em;
-  justify-content: space-between; /*여백 나눠가지기*/
+  justify-content: between; /*여백 나눠가지기*/
+}
+
+.bottom {
+  display: block;
+  /*background-color: green; 밑에 표기 부분 범위 체크용*/
+  padding-bottom: 30px;
+}
+
+p2 {
+  color: #800000;
+  font-size: 0.1em;
+  font-family: 'futura';
 }
 
 p3 {
   color: #800000;
-  font-size: 1.3em;
+  font-size: 0.2em;
   font-family: 'futura';
   font-weight: bold;
 }

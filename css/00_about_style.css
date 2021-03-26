@@ -32,14 +32,15 @@ body {
 }
 
 .close-icon {
-  margin-top: 4%;
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-top: 70px;
+  margin-left: 70px;
+  margin-right: 70px;
   z-index: 4;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-end; /*여백 나눠가지기*/
+  opacity: 20%;
 
 }
 
