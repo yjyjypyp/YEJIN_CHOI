@@ -8,11 +8,11 @@
 body {
   margin: 0;
   background: #060B17;
-  height: 1200vh;
+  height: 1300vh;
 }
 
 .container {
-  height: 1200vh; /*viewport height*/
+  height: 1300vh; /*viewport height*/
   justify-content: space-between;
   padding-top: 0%;
   padding-bottom: 10%;
@@ -50,6 +50,10 @@ body {
   align-items: center;
   padding-bottom: 2%;
   justify-content: space-between;
+}
+
+.video {
+  margin-top: 50px;
 }
 
 .body-image {
@@ -95,6 +99,7 @@ p1 {
 h2 {
   color: #C0C0C0;
   font-family: 'futura';
+  padding-bottom: 15px;
 }
 
 a:link {

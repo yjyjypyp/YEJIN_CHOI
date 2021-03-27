@@ -145,13 +145,27 @@ body {
 }
 
 .container-information {
+  height: 3000px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: 3000px;
+  padding-left: 25%;
+  padding-right: 25%;
+  margin: auto;
+
+  font-family: 'futura';
+  font-size: 1.1em;
+  text-align: justify;
 
   /*border: 1px solid green;*/
+}
+
+.title {
+  margin-left: 40px;
+}
+.info {
+  margin-left: 40px;
 }
 
 .body-image {
@@ -166,15 +180,6 @@ body {
   /*border: 1px solid red;*/
 }
 
-.container-information {
-  padding-left: 25%;
-  padding-right: 25%;
-  margin: auto;
-
-  font-family: 'futura';
-  font-size: 1.1em;
-  text-align: justify;
-}
 
 
 a:link {

@@ -52,13 +52,16 @@ body {
 }
 
 .body-image {
-  padding-top: 80px;
+  padding-bottom: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 2%;
   justify-content: space-between;
 
+}
+.video {
+  
 }
 
 .index-information {
@@ -96,6 +99,7 @@ p1 {
 h2 {
   color: #C0C0C0;
   font-family: 'futura';
+  padding-bottom: 15px;
 }
 
 a:link {

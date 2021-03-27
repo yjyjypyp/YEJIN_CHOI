@@ -24,6 +24,7 @@ body {
   margin-left: 30px;
   position: fixed;
   z-index: 100;
+  font-family: 'futura';
 }
 
 .profile {
@@ -47,7 +48,6 @@ body {
 .fixed {
   margin: 0;
   display: inline-block;
-  font-family: 'futura';
   font-weight: bold;
   font-style: italic;
   font-size: 0.9em;
@@ -58,6 +58,7 @@ body {
 
 /*----------------여기서부터 컨테이너 -----------------------*/
 .container {
+  position: absolute;
   height: 4500px;
   /*border: 1px solid red;*/
   /*border: 1px solid blue;*/
@@ -70,12 +71,12 @@ body {
   /*background-color: blue; -> 메인 이미지 부분 영역 확인용*/
 
   height: 4300px; /*메인 이미지들 있는 부분 영역*/
+  margin-left: 50px;
 
   /*border: 1px solid green;*/
 }
 
 .main {
-  margin: 50px;
   padding: 200px 0 0 0;
   /*
 border: 1px solid blue;  */

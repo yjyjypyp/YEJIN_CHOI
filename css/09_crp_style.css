@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  height: 900vh; /*viewport height*/
+  height: 600vh; /*viewport height*/
   justify-content: space-between;
   padding-top: 0%;
   padding-bottom: 10%;
@@ -52,7 +52,7 @@ body {
 }
 
 .body-image {
-  padding-top: 80px;
+  padding-bottom: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,7 +63,7 @@ body {
 
 .index-information {
   position: absolute;
-  margin-top: 380px;
+  margin-top: 530px;
   margin-left: 80px;
   z-index: 4;
   font-weight: bold;
@@ -85,6 +85,7 @@ p0 {
   font-family: 'futura';
   font-size: 1.1em;
   text-align: justify;
+  /*border: 1px solid green;*/
 }
 
 p1 {
@@ -96,6 +97,7 @@ p1 {
 h2 {
   color: #C0C0C0;
   font-family: 'futura';
+  padding-bottom: 15px;
 }
 
 a:link {
@@ -114,6 +116,19 @@ a:hover {
   text-decoration: underline;
 }
 
+/*--------------BOTTOM--------------*/
+.BOTTOM {
+  height: 200px;
+  position : relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content:flex-end;
+  margin-top: 5100px;
+  /*border: 1px solid red;*/
+
+}
+
 /*--------------저작권 표기--------------*/
 .item-copyright{
   display: flex;
@@ -122,12 +137,11 @@ a:hover {
   padding-bottom: 2em;
   justify-content: space-between; /*여백 나눠가지기*/
   font-family: 'futura';
-}
 
-p2 {
   color: #800000;
   font-size: 0.8em;
 }
+
 /*--------------home으로 돌아가기--------------*/
 .item-backtohome{
   display: flex;

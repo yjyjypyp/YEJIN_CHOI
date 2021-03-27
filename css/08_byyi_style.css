@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  height: 900vh; /*viewport height*/
+  height: 500vh; /*viewport height*/
   justify-content: space-between;
   padding-top: 0%;
   padding-bottom: 10%;
@@ -52,7 +52,7 @@ body {
 }
 
 .body-image {
-  padding-top: 80px;
+  padding-bottom: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -61,11 +61,42 @@ body {
 
 }
 
+}
+
+.video {
+  display: flex;
+  height: 500px;
+}
+
+.STILLIMAGE {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-item {
+  display: flex;
+  border: 1px solid red;
+}
+
+.img.grid-item.img-01 {
+  float: left;
+}
+
+.img.grid-item.img-05 {
+  float: left;
+}
+
+
 .index-information {
   position: absolute;
-  margin-top: 380px;
+  margin-top: 650px;
   margin-left: 80px;
   z-index: 4;
+  font-weight: bold;
+}
+
+p1 {
   font-weight: bold;
 }
 
@@ -96,6 +127,7 @@ p1 {
 h2 {
   color: #C0C0C0;
   font-family: 'futura';
+  padding-bottom: 15px;
 }
 
 a:link {
