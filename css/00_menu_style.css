@@ -1,3 +1,7 @@
+body {
+  height: 3500px;
+}
+
 
 ul {
   list-style: none;
@@ -99,21 +103,6 @@ body {
   background: #060B17;
 }
 
-.container {
-  height: 320vh; /*viewport height*/
-  justify-content: space-between;
-  padding-top: 0%;
-  padding-bottom: 10%;
-  margin: auto;
-
-}
-
-.work-menu {
-  display: flex;
-  margin-left: 200px;
-  margin-top: 80px;
-}
-
 .close-icon {
   margin-top: 70px;
   margin-left: 70px;
@@ -124,26 +113,58 @@ body {
   align-items: flex-end;
   justify-content: flex-end; /*여백 나눠가지기*/
   opacity: 20%;
-}
-/*
-.main-image {
-  padding-top: 23%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 2%;
-  justify-content: space-between;
-}
-*/
-.body-image {
-  padding-top: 40px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 2%;
-  justify-content: space-between;
+
+  /*border: 1px solid green;*/
 }
 
+.container {
+  height: 320vh; /*viewport height*/
+  justify-content: space-between;
+  padding-top: 0%;
+  padding-bottom: 10%;
+  margin: auto;
+
+}
+
+
+.work-menu {
+  display: flex;
+  margin-top: 80px;
+  margin-left: 80px;
+  margin-bottom: 20px;
+
+  color: #C0C0C0;
+  font-family: 'futura';
+  font-size: 25px;
+
+  /*border: 1px solid red*/
+}
+
+.title-menu {
+  /*border: 1px solid blue;*/
+}
+
+.container-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 3000px;
+
+  /*border: 1px solid green;*/
+}
+
+.body-image {
+  height: 2800px;
+  display: flex;
+  margin-bottom: 80px;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2%;
+  justify-content: space-between;
+
+  /*border: 1px solid red;*/
+}
 
 .container-information {
   padding-left: 25%;
@@ -155,12 +176,6 @@ body {
   text-align: justify;
 }
 
-
-h1 {
-  color: #C0C0C0;
-  font-family: 'futura';
-  font-size: 3em;
-}
 
 a:link {
   color: #800000;
@@ -178,6 +193,20 @@ a:hover {
   text-decoration: underline;
 }
 
+/*--------------BOTTOM--------------*/
+.BOTTOM {
+  height: 200px;
+  position : relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content:flex-end;
+
+  margin-top: 270px;
+  /*border: 1px solid red;*/
+
+}
+
 /*--------------저작권 표기--------------*/
 .item-copyright{
   display: flex;
@@ -186,12 +215,11 @@ a:hover {
   padding-bottom: 2em;
   justify-content: space-between; /*여백 나눠가지기*/
   font-family: 'futura';
-}
 
-p2 {
   color: #800000;
   font-size: 0.8em;
 }
+
 /*--------------home으로 돌아가기--------------*/
 .item-backtohome{
   display: flex;
