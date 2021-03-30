@@ -38,6 +38,7 @@ body {
 }
 
 .main-image {
+  padding-top: 23%;
   display: flex;
   flex-direction: column;
   align-items: center;
