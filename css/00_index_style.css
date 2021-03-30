@@ -18,7 +18,7 @@ body {
 
 .POSITION_FIXED {
   margin-top: 10px;
-  margin-left: 10px;
+  margin-left: 20px;
 
   position: fixed;
   z-index: 100;
@@ -36,11 +36,13 @@ body {
 
 .WORK_CONTACT {
   margin: 0;
-  padding-left: 15px;
+  padding-top: 10px;
+  padding-left: 20px;
   height: 500px;
   width: 500px;
   display: flex;
   flex-direction: column;
+  line-height: 120px;
 
   /*border: 1px solid green;*/
 }
@@ -147,6 +149,7 @@ body {
   width: 100%;
   left: 0;
   right: 0;
+  justify-content: space-between;
 
   font-family: 'futura';
 
@@ -168,6 +171,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   color: #800000;
   font-size: 0.8em;
   margin-bottom: 50px;
@@ -176,6 +180,11 @@ body {
 }
 
 p2 {
+  color: #800000;
+  font-size: 12px;
+}
+
+p4 {
   color: #800000;
   font-size: 12px;
 }
