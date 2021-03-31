@@ -1,20 +1,15 @@
 
-.top-icons {
-  padding-top: 2%;
-  padding-left: 2%;
-  padding-right: 2%;
-}
-
 body {
   margin: 0;
   background: #060B17;
 }
 
 .container {
-  height: 800vh; /*viewport height*/
+  height: auto; /*viewport height*/
   justify-content: space-between;
   padding-top: 0%;
-  padding-bottom: 10%;
+  position: relative;
+
 
 }
 
@@ -23,10 +18,11 @@ body {
   font-family: 'futura';
   font-weight: bolder;
   font-size: 8em;
-  margin-top: 2%;
-  margin-left: 3%;
+  margin-top: 60px;
+  margin-left: 60px;
   z-index: 3;
   color: #800000;
+  line-height: 150px;
 }
 
 .close-icon {
@@ -38,12 +34,7 @@ body {
 }
 
 .main-image {
-  padding-top: 23%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 2%;
-  justify-content: space-between;
+  padding-bottom: 15%;
 }
 
 .body-image {
@@ -61,8 +52,8 @@ body {
 
 .index-information {
   position: absolute;
-  margin-top: 380px;
-  margin-left: 80px;
+  margin-top: 450px;
+  margin-left: 70px;
   z-index: 4;
   font-weight: bold;
 }
@@ -74,15 +65,18 @@ p0 {
 }
 
 .container-information {
-  position: absolute;
-  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 400px;
   padding-left: 25%;
   padding-right: 25%;
   margin: auto;
 
   font-family: 'futura';
   font-size: 1.1em;
-  text-align: justify;
+  text-align: justify; /* 본문 글씨 정렬 */
 }
 
 p1 {
@@ -116,6 +110,7 @@ a:hover {
 /*--------------BOTTOM--------------*/
 .BOTTOM {
   position: absolute;
+  margin-top: 200px;
   left: 0;
   right: 0;
 
