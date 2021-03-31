@@ -37,17 +37,28 @@ body {
   padding-bottom: 15%;
 }
 
+.video {
+  padding-bottom: 15%;
+}
+
 .body-image {
-  padding-bottom: 80px;
+  padding-top: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 2%;
   justify-content: space-between;
-
 }
-.video {
 
+.scenes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.scenes-img {
+  width: 400px;
+  height: auto;
 }
 
 .index-information {

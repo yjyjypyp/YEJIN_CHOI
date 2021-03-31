@@ -54,6 +54,17 @@ body {
   justify-content: space-between;
 }
 
+.scenes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.scenes-img {
+  width: 400px;
+  height: auto;
+}
+
 .index-information {
   position: absolute;
   margin-top : 600px;

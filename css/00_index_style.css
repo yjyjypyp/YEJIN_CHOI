@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  height: 4000px;
+  height: auto;
   font-size: 8em;
   background-color: #f74239;
 
@@ -68,7 +68,7 @@ body {
   display: flex;
   /*background-color: blue; -> 메인 이미지 부분 영역 확인용*/
 
-  height: 4300px; /*메인 이미지들 있는 부분 영역*/
+  height: 4000px; /*메인 이미지들 있는 부분 영역*/
   top: 0;
   left:0;
   right: 0;

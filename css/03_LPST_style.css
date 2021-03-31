@@ -39,6 +39,29 @@ body {
   opacity: 20%;
 }
 
+.index-information {
+  position: absolute;
+  margin-top: 600px;
+  margin-left: 70px;
+  z-index: 4;
+  font-weight: bold;
+}
+
+.container-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 400px;
+  padding-left: 25%;
+  padding-right: 25%;
+  margin: auto;
+
+  font-family: 'futura';
+  font-size: 1.1em;
+  text-align: justify; /* 본문 글씨 정렬 */
+}
+
 .main-image {
   padding-bottom: 15%;
 
@@ -57,13 +80,116 @@ body {
   justify-content: space-between;
 }
 
-.index-information {
-  position: absolute;
-  margin-top: 600px;
-  margin-left: 70px;
-  z-index: 4;
-  font-weight: bold;
+.scenes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin-bottom: 80px;
 }
+
+.scenes-img {
+  width: 395px;
+  height: auto;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin-bottom: 80px;
+  margin-top: -10px;
+}
+
+.card-img {
+  width: 395px;
+  height: auto;
+}
+
+.DISPLAY {
+  text-align:left;
+  margin-bottom: 80px;
+}
+.display-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin-bottom: 80px;
+}
+.display-items-img {
+  width: 395px;
+  height: auto;
+}
+
+
+.display-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin-bottom: 80px;
+}
+
+.display-card-img {
+  width: 195px;
+  height: auto;
+}
+
+.BOOK_for_text {
+  text-align: left;
+}
+
+.book {
+  text-align: center;
+}
+
+.book-cover {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin-bottom: 50px;
+}
+.book-cover-img {
+  width: 395px;
+  height: auto;
+  margin-top: 0;
+  margin-bottom: 3px;
+}
+.book-format-A {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin-bottom: 50px;
+}
+.book-format-A-img {
+  width: 395px;
+  height: auto;
+  margin-top: 0;
+  margin-bottom: 3px;
+}
+.book-format-B {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin-bottom: 50px;
+}
+.book-format-B-img {
+  width: 395px;
+  height: auto;
+  margin-top: 0;
+  margin-bottom: 3px;
+}
+
+.book-format-AA {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+.book-format-AA-img {
+  width: 395px;
+  height: auto;
+  margin-top: 0;
+  margin-bottom: 3px;
+}
+
 
 p0 {
   color: #800000;
@@ -71,20 +197,6 @@ p0 {
   font-family: 'futura';
 }
 
-.container-information {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 400px;
-  padding-left: 25%;
-  padding-right: 25%;
-  margin: auto;
-
-  font-family: 'futura';
-  font-size: 1.1em;
-  text-align: justify; /* 본문 글씨 정렬 */
-}
 
 p1 {
   color: #A9A9A9;

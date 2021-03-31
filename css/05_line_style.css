@@ -38,6 +38,14 @@ body {
   opacity: 20%;
 }
 
+.index-information {
+  position: absolute;
+  margin-top: 600px;
+  margin-left: 70px;
+  z-index: 4;
+  font-weight: bold;
+}
+
 .main-image {
   padding-bottom: 15%;
 }
@@ -52,12 +60,11 @@ body {
 
 }
 
-.index-information {
-  position: absolute;
-  margin-top: 600px;
-  margin-left: 70px;
-  z-index: 4;
-  font-weight: bold;
+.poster {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  padding-bottom: 2%;
 }
 
 p0 {
