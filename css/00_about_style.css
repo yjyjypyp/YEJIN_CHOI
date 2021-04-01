@@ -33,6 +33,7 @@ body {
 }
 
 .index-information {
+  height:2600px;
   position: absolute;
   margin-top: 380px;
   margin-left: 80px;
