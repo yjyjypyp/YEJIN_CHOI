@@ -47,14 +47,14 @@ p0 {
 }
 
 .container-information {
-  height: 2100px;
+  height: 2300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   z-index: 1;
   position: absolute;
-  top: 530px;
+  top: 330px;
   left: 25%;
   right: 25%;
   margin: auto;
@@ -102,7 +102,7 @@ a:hover {
 .BOTTOM {
   position: absolute;
   display: inline-block;
-  padding-top: 2500px;
+  padding-top: 2800px;
   /*margin-bottom: 200px;*/
   left: 0;
   right: 0;
