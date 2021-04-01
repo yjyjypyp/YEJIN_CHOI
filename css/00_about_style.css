@@ -34,8 +34,8 @@ body {
 .index-information {
   height:2600px;
   position: absolute;
-  margin-top: 380px;
-  margin-left: 80px;
+  margin-top: 450px;
+  margin-left: 70px;
   z-index: 4;
   font-weight: bold;
 }
