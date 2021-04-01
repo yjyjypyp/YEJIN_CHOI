@@ -102,8 +102,7 @@ a:hover {
 .BOTTOM {
   position: absolute;
   display: inline-block;
-  margin-top: 300px;
-  padding-top: 2500px;
+  padding-top: 3000px;
   
   /*margin-bottom: 200px;*/
   left: 0;
