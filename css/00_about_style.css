@@ -54,7 +54,7 @@ p0 {
   align-items: center;
   z-index: 1;
   position: absolute;
-  top: 330px;
+  top: 530px;
   left: 25%;
   right: 25%;
   margin: auto;
@@ -102,7 +102,7 @@ a:hover {
 .BOTTOM {
   position: absolute;
   display: inline-block;
-  padding-top: 3000px;
+  padding-top: 3300px;
   
   /*margin-bottom: 200px;*/
   left: 0;
