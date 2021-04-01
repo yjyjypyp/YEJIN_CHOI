@@ -3,7 +3,7 @@ body {
   padding: 0;
   height: auto;
   font-size: 8em;
-  background-color: #f74239;
+  background-color: #ff3f3f;
 
   /*border: 1px solid purple;*/
 
@@ -68,7 +68,7 @@ body {
   display: flex;
   /*background-color: blue; -> 메인 이미지 부분 영역 확인용*/
 
-  height: 4000px; /*메인 이미지들 있는 부분 영역*/
+  height: 3500px; /*메인 이미지들 있는 부분 영역*/
   top: 0;
   left:0;
   right: 0;
@@ -142,7 +142,7 @@ body {
 .BOTTOM {
   position: absolute;
   width: 100%;
-  left: 0;
+  left: 50px;
   right: 0;
   justify-content: space-between;
 
@@ -156,7 +156,7 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: -18px;
 
   /*border: 1px solid purple;*/
@@ -166,7 +166,7 @@ body {
 .item-copyright{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   color: #800000;
   font-size: 0.8em;
@@ -197,17 +197,17 @@ p3 {
 
 /*--------------link 설정 관련--------------*/
 a:link {
-  color: #6800A0;
+  color: #8632E6;
   background-color: transparent;
   text-decoration: none;
 }
 a:visited {
-  color: #6800A0;
+  color: #8632E6;
   background-color: transparent;
   text-decoration: none;
 }
 a:hover {
-  color: #800000;
+  color: #800000;/* #E032E6  #c04df9  #ff48c4*/;
   background-color: transparent;
   text-decoration: underline;
 }
