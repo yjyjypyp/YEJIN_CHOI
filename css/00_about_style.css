@@ -5,10 +5,9 @@ body {
 
 .container {
   position: relative;/*viewport height*/
-  height: 3000px;
+  height: auto;
   justify-content: space-between;
   padding-top: 0%;
-  padding-bottom: 20%;
 }
 
 .title {
@@ -48,17 +47,29 @@ p0 {
 }
 
 .container-information {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   z-index: 1;
   position: absolute;
   top: 530px;
   left: 25%;
   right: 25%;
   margin: auto;
-  padding-bottom: 300px;
 
   font-family: 'futura';
   font-size: 1.1em;
   text-align: justify;
+}
+
+.INFO {
+  padding-bottom: 80px;
+  display: inline-block;
+  align-items: center;
+  padding-bottom: 2%;
+  justify-content: space-between;
 }
 
 p1 {
@@ -90,6 +101,9 @@ a:hover {
 /*--------------BOTTOM--------------*/
 .BOTTOM {
   position: absolute;
+  display: inline-block;
+  padding-top: 3000px;
+  margin-bottom: 200px;
   left: 0;
   right: 0;
 
@@ -114,12 +128,18 @@ a:hover {
   margin-bottom: 50px;
 }
 
-p2 {
+p2, p4 {
   color: #800000;
   font-size: 12px;
 }
 
-p4 {
+p3 {
+  color: #800000;
+  font-size: 20px;
+  font-family: 'futura';
+  font-weight: bold;
+}
+p2, p4 {
   color: #800000;
   font-size: 12px;
 }
