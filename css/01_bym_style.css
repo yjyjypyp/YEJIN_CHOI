@@ -65,6 +65,10 @@ body {
   height: auto;
 }
 
+.image image-second {
+    padding-top: 80px;
+}
+
 .index-information {
   position: absolute;
   margin-top : 600px;
