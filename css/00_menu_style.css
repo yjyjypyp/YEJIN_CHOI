@@ -229,3 +229,14 @@ p3 {
   font-family: 'futura';
   font-weight: bold;
 }
+p2, p4 {
+  color: #800000;
+  font-size: 12px;
+}
+
+p3 {
+  color: #800000;
+  font-size: 20px;
+  font-family: 'futura';
+  font-weight: bold;
+}
