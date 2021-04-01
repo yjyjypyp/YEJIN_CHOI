@@ -1,7 +1,6 @@
 body {
   margin: 0;
   background: #060B17;
-  height: 3500px;
 }
 
 .container {
@@ -48,7 +47,7 @@ p0 {
 }
 
 .container-information {
-  height: 3200px;
+  height: 2000px;
   display: flex;
   flex-direction: column;
   justify-content: center;
